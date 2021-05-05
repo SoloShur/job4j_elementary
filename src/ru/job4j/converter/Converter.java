@@ -9,7 +9,7 @@ public class Converter {
         return value / 60;
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         float euro = Converter.rubToEuro(526);
         float usd = Converter.rubToUsd(325);
         System.out.println(euro);
