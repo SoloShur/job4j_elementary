@@ -10,10 +10,13 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        float euro = Converter.rubToEuro(526);
-        float usd = Converter.rubToUsd(325);
-        System.out.println(euro);
-        System.out.println(usd);
+        float in = 140;
+        float expected = 2;
+        float out = Converter.rubToEuro(in);
+        boolean passed = expected == out;
+        System.out.println("140 rub are 2. Test result: " + passed);
+        out = Converter.rubToUsd(in);
+        System.out.println("140 rub are 2.3. Test result: " + passed);
 
     }
 }
