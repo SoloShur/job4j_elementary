@@ -7,7 +7,5 @@ public class LoopFor {
         for (i = 5; result = i <= 10; i++) {
             System.out.println(i);
         }
-        System.out.println("Индекс после цикла равен: " + i);
-        System.out.println("Условие выполнения цикла равно: " + result);
     }
 }
